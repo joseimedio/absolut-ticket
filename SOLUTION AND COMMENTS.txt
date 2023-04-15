@@ -1,0 +1,33 @@
+In order to solve this assessment, I decided to create a React app, where the solution to each task 
+is displayed on a different page of a website:
+- Start the app by running "npm start" at 'absolut-ticket-assessment/src'. 
+- Find task 1 at 'localhost:3000/finding_local_minima'.
+- Find task 2 at 'localhost:3000/currency_data'.
+- Find task 3 at 'localhost:3000/slider'.
+
+TASK 1:
+The code can be found in src/components/LocalMinima.js
+
+I created a function for each method. Both functions are called and the results are stored in two arrays.
+Those arrays are then displayed on the website.
+
+Method A:
+I used a for loop that iterates from the second element to the one right before the last. It checks the value
+of the field "close" for t-1, t and t+1. If f(t) is the smallest, it stores a log that indicates the existance 
+of a local minimum at time t. Otherwise, it does nothing.
+
+Method B:
+I used a for loop that iterates from the second element to the last. It checks the value for the field "close" for 
+t-1 and t. If f(t) is the smallest, it stores a log that indicates the existance of a local minimum at time t. 
+Otherwise, it does nothing. 
+This solution gives an extra local minimum, as it's comparing two values every time, instead of three.
+
+
+TASK 2:
+The code can be found in src/components/CurrencyData.js
+
+I set a useEffect hook to perform a fetch to the given url every 100ms. The value obtained is then transformed as
+indicated and displayed on the corresponding page of the website. 
+There is a counter showing the amount of logs stored so far, and by clicking a button the user can download a csv
+file with all the logs. 
+A sample csv file has been included in the root directory. It was generated using this method.
