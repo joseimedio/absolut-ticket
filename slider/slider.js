@@ -1,5 +1,12 @@
-const btn_prev = document.getElementsByClassName("slider-prev");
-const btn_next = document.getElementsByClassName("slider-next");
+const btn_prev = document.querySelector(".slider-prev");
+const btn_next = document.querySelector(".slider-next");
 
-const element = document.get;
-element.innerHTML = "Hello world";
+const slide_1 = document.querySelector(".slide");
+
+btn_prev.addEventListener("click", () => {
+    slide_1.style.zIndex = "1";
+})
+
+btn_next.addEventListener("click", () => {
+    slide_1.style.zIndex = "0";
+})
