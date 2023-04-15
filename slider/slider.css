@@ -1,0 +1,10 @@
+html, body {
+    margin: 0px;
+}
+
+.slide {
+    position:absolute;
+    margin-top:5%;
+    margin-left:15%;
+    background-color: white;
+}
