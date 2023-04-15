@@ -41,5 +41,4 @@ That way, they behave like cards on top of each other. Then, I made the buttons 
 I was confused here as there were no independent id for each slide. Had I been able to modify the HTML file, I would've 
 included ids so I could manage each slide individually.
 
-
-With React, I would've used react-bootstrap to create a carousel. 
+I could've also created a carousel using Bootstrap, but I was running out of time and I wasn't sure if that would've met the requirements. 
