@@ -31,3 +31,15 @@ indicated and displayed on the corresponding page of the website.
 There is a counter showing the amount of logs stored so far, and by clicking a button the user can download a csv
 file with all the logs. 
 A sample csv file has been included in the root directory. It was generated using this method.
+
+
+TASK 3:
+I didn't have time to complete this task properly. I have been using React for the most part lately. My knowledge 
+about vanilla JavaScript needs some review.
+The only thing I managed to try was setting the position of the three slides to absolute and give them a white background.
+That way, they behave like cards on top of each other. Then, I made the buttons modify the z-Index of one of the slides.
+I was confused here as there were no independent id for each slide. Had I been able to modify the HTML file, I would've 
+included ids so I could manage each slide individually.
+
+
+With React, I would've used react-bootstrap to create a carousel. 
